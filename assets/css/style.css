@@ -16,13 +16,22 @@ h1, h3 {
 h2 {
     color: #4aaaa5;
 }
+h3 {
+    background-color: #4aaaa5;
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+}
+
 
 #header {
     width: 100%;
+    height: auto;
     background-color: #ffffff;
     position: fixed;
     top: 0;
     margin: 0;
+    padding: 0;
     border-bottom: solid 2px #cccccc;
 }
 #name {
@@ -44,7 +53,6 @@ h2 {
 
 
 .navigation li {
-    display: inline-block;
     width: 120px;
     float: left;
     position: absolute;
@@ -59,6 +67,10 @@ h2 {
     color: #777777;
 
 }
+#page_container {
+    position: relative;
+    height: 100%;
+}
 
 section {
    margin: 125px auto;
@@ -66,9 +78,26 @@ section {
    padding: 20px;
    background-color: #ffffff;
    border: solid 1px #cccccc;
+   
 }
 
 #self_picture {
     float: left;
+    margin: 20px;
 }
 
+p {
+    line-height: 1.5;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    text-align: center;
+    color: #ffffff;
+    border-top: solid 8px  #4aaaa5;
+    position: absolute;
+    bottom: 0;
+    
+}
