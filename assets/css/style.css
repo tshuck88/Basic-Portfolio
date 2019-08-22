@@ -1,3 +1,9 @@
+html {
+    position: relative;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0;
     padding: 0;
@@ -72,11 +78,6 @@ h3 {
     border-right: solid #cccccc 1px;
 }
 
-#page_container {
-    position: relative;
-    height: 100%;
-}
-
 section {
    margin: 125px auto;
    width: 918px;
@@ -104,6 +105,7 @@ footer {
     border-top: solid 8px  #4aaaa5;
     position: absolute;
     bottom: 0;
+    overflow: hidden;
     
 }
 
