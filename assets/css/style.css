@@ -69,6 +69,9 @@ h3 {
     text-decoration: none;
     color: #777777;
 }
+.navigation a:hover {
+    color: #4aaaa5;
+}
 
 .nav_item {
     border-right: solid #cccccc 1px;
@@ -137,6 +140,9 @@ input[type=submit]  {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 30px;
     border: none;
+}
+input[type=submit]:hover {
+    background-color: #777777;
 }
 .container {
     width: 960px;
