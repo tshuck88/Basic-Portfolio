@@ -52,6 +52,7 @@ h3 {
 
 .navigation {
     float: right;
+    margin-top: 20px;
    
 }
 
@@ -68,24 +69,26 @@ h3 {
     text-decoration: none;
     color: #777777;
 }
-.end_nav_item {
-    border: none;
-}
 
 .nav_item {
     border-right: solid #cccccc 1px;
 }
 
+.content {
+    margin-top: 121px;
+}
+
 section {
-   
    background-color: #ffffff;
    border: solid 1px #cccccc;
+   padding: 25px;
+   box-sizing: border-box;
    
 }
 
 #self_picture {
     float: left;
-    margin: 20px;
+    margin: 20px 20px 20px 0px;
 }
 
 p {
@@ -103,6 +106,14 @@ footer {
     bottom: 0;
     overflow: hidden;
     
+    
+}
+
+#footer_text {
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+   font-size: 12px;
 }
 
 input[type=text] {

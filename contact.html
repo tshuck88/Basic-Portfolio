@@ -12,40 +12,46 @@
 <body>
     <div id="page_container">
         <header id="header">
-            <div id="name">
-                <h1>Tyler Shuck</h1>
-            </div>
-            <nav class="navigation">
+            <div class="container clearfix">
+                <div id="name">
+                    <h1>Tyler Shuck</h1>
+                </div>
+                <nav class="navigation">
                     <ul>
                         <li class="nav_item"><a href="index.html">About</a></li>
                         <li class="nav_item"><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
-        </header>
-        <section>
-            <div class="body_header">
-                <h2>Contact</h2>
             </div>
-            <hr>
-            <form>
-                Name
-                <br>
-                <input type="text" name="name" placeholder="John Smith">
-                <br><br>
-                Email
-                <br>
-                <input type="text" name="email" placeholder="example@gmail.com">
-                <br><br>
-                Message
-                <br>
-                <textarea name="message"></textarea>
-                <br><br>
-                <input type="submit" name="submit">
-            </form>
-        </section>
+        </header>
+        <div class="content">
+            <section class="container">
+                <div class="body_header">
+                    <h2>Contact</h2>
+                </div>
+                <hr>
+                <form>
+                    Name
+                    <br>
+                    <input type="text" name="name" placeholder="John Smith">
+                    <br><br>
+                    Email
+                    <br>
+                    <input type="text" name="email" placeholder="example@gmail.com">
+                    <br><br>
+                    Message
+                    <br>
+                    <textarea name="message"></textarea>
+                    <br><br>
+                    <input type="submit" name="submit">
+                </form>
+            </section>
+        </div>
         <footer>
-            Copyright &copy;
+            <div id="footer_text">
+                Copyright &copy;
+            </div>
         </footer>
     </div>
 </body>
