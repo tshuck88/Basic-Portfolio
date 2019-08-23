@@ -43,6 +43,7 @@ h3 {
     margin: 0;
     padding: 0;
     border-bottom: solid 2px #cccccc;
+    z-index: 2;
 }
 
 #name {
