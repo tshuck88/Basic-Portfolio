@@ -47,14 +47,12 @@ h3 {
     background-color: #4aaaa5;
     width: fit-content;
     padding: 5px 20px;
-    margin: 0px 480px;
+    float: left;
 }
 
 .navigation {
-    margin: 20px 440px 20px 0px;
-    position: absolute;
-    top: 0;
-    right: 20px;
+    float: right;
+   
 }
 
 .navigation ul {
@@ -79,9 +77,7 @@ h3 {
 }
 
 section {
-   margin: 125px auto;
-   width: 918px;
-   padding: 20px;
+   
    background-color: #ffffff;
    border: solid 1px #cccccc;
    
@@ -130,6 +126,14 @@ input[type=submit]  {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 30px;
     border: none;
-    
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
 
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: block;
 }
